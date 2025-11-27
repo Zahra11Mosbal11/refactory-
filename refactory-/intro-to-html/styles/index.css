@@ -92,7 +92,6 @@ padding: 20px;
 }
 
 
-
 .section1 h3 {
   font-size: 30px;
   color: #663367;
@@ -163,24 +162,78 @@ padding: 20px;
 }
 .section3 {
   display: flex;
+  flex-direction: row;
+  
+  background-color:  #002a48;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  padding: 60px;
+}
+.section3-img{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0px;
+}
+.section3-img img{
+  border: white  6px solid ;
+}
+.section3-img2{
+  margin-left: 60px;
+}
+.section3-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.section3 h3 {
+  font-size: 30px;
+  color: white;
+
+}
+.contenr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section4 {
+  display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
   font-family: "DM Sans", sans-serif;
   padding: 30px;
 }
 
-
-
-.section3 h3 {
+.section4 h3 {
   font-size: 30px;
-  color: #663367;
+  color: #0F5395;
 
 }
-footer {
-  height: 300px;
-  background-image: url(/assist/footer.jpg) ;
-  background-size: cover;
+
+.section4 p {
+  color: #797171;
+  font-family: Arial;
+}
+
+.section4 h4 {
+  color: #002A48;
+}
+
+.section4 button {
+  background-color: #c6c628;
   color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+footer {
+  background-image: url(https://refactory.academy/wp-content/uploads/2025/07/19534059_6144290.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .footer-call {
@@ -200,7 +253,7 @@ footer {
 }
 .copyR{
   padding: 20px;
-  margin-top: 20px;
+
   border-top: #ffff solid;
   text-align: center;
 }
